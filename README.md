@@ -1,3 +1,26 @@
+# Instructions to get started:
+ After cloning the repo, please run npm install​ to install the necessary dependencies. This will create the node-modules folder.
+
+# Project Features:
+
+- Displaying Next 10 Launches in a List:
+
+- Pagination with Previous and Next buttons to navigate between results.
+- Launch Details: - Clicking on a list item will give you access to details like mission name, rocket type, etc.
+                                 Search in Search Bar:
+
+- Auto Search: Triggered on typing.
+- Button Search: Ability to search by clicking Search.
+- Search Reset: Reset and return to the full list by clicking the x icon.
+
+# State Management and Performance:
+
+- Use of React's useContext/Context API for state management. Redux has been discarded to avoid complex and unnecessary code in this context, Caching strategy to improve performance and reduce network requests: use local 
+ storage for launches.
+
+# User Experience and Performance:
+  Components such as the search bar and pagination are conditionally rendered for a better user experience. Loading indicators (spinners) are present during data loading.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
